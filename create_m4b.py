@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Combine an exported audiobook folder (Part NNN.mp3 files + metadata/metadata.json
 + metadata/cover.*) into a single chaptered .m4b file, using ffmpeg/ffprobe."""
+# https://greasyfork.org/en/scripts/498782-libregrab
 
 import argparse
 import html
